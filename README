@@ -1,0 +1,11 @@
+This utility imbues non-Cygwin processes with job control. It works by
+starting an NT process group and controlling that process group using
+a Cygwin POSIX session.
+
+It's most useful for running long compilation jobs, e.g.,
+
+  injob nmame
+
+I used to build Windows under this tool.
+
+
